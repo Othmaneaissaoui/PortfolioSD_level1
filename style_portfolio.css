@@ -267,7 +267,7 @@ border: .2rem solid #1f242d ;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-
+    
 }
 
 
@@ -299,6 +299,7 @@ border: .2rem solid #1f242d ;
     font-size: 30px;
     font-weight: 700;
     margin: 10px;
+    font-family: 'Times New Roman', Times, serif ;
 }
 
 .info h3 {
@@ -306,6 +307,7 @@ border: .2rem solid #1f242d ;
     font-size: 30px;
     font-weight: 700;
     margin: 10px;
+    font-family: 'Times New Roman', Times, serif ;
 }
 
 .info p {
@@ -373,6 +375,7 @@ border: .2rem solid #1f242d ;
     font-size: 30px;
     font-weight: 700;
     margin: 10px;
+    font-family: 'Times New Roman', Times, serif ;
 }
 
 .contact .info p {

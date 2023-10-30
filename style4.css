@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif ;
+
+    
+}
+
+body {
+    background: #081b29;
+    color:#fff;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+     align-items: 100;
+     z-index: 100;
+
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+   transition: .3s;
+}
+
+.navbar a:hover {
+    color: #0ef;
+}
+
+
+.about {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    background: #081b29 ;
+    margin: 50px;
+   
+}
+
+.heading {
+    font-size: 45px;
+    margin: 80px;
+    text-align: center;
+}
+
+span {
+    color: #0ef;
+}
+
+
+
+
+.about-img {
+ display: flex;
+align-items: center;    
+}
+
+.left-image {
+    max-width: 200%; 
+    height: auto;
+    margin-right: 20px;
+    width: 20%;
+    border-radius: 10%;
+}
+
+
+
+.about-content h3 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif ;
+    color: #0ef;
+   text-decoration: underline;
+   margin-left: 5%;
+ 
+ }
+ 
+ .about-content p {
+  font-size:16px;
+  margin:50px;
+  width: 70%; 
+
+ 
+ }
+ 

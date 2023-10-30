@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif ;
+
+    
+}
+
+body {
+    background: #081b29;
+    color:#fff;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+     align-items: 100;
+     z-index: 100;
+
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+   transition: .3s;
+}
+
+.navbar a:hover {
+    color: #0ef;
+}
+
+
+.heading {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+     margin: 150px;
+     
+ }
+ 
+ span{
+    color: #0ef;
+ }
+
+
+.contact {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    min-height:auto;
+    padding-bottom:40px;
+
+   
+}
+
+
+.contact .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+
+.contact .card {
+    background-color: #fff;
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+
+}
+
+
+
+
+.icon {
+    color: #1f242d;
+    font-size: 8em;
+    text-align: center;
+   
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #0ef;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.contact .info p {
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+  
+}
+

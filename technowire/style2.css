@@ -88,12 +88,12 @@
            
 			 .nav-bar {
 				position: absolute;
-				margin: 430px;
+				margin: 450px;
 				width: 100%;
 				border-radius: 10%;
 				bottom: 0;
-				transform:  scale(0.45 , 0.9);
-				margin-left: 234px;
+				transform:  scale(0.4 , 0.9);
+				margin-left: 230px;
 			   
 			  
 			  

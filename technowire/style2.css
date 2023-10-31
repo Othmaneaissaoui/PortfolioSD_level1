@@ -93,7 +93,7 @@
 				border-radius: 10%;
 				bottom: 0;
 				transform:  scale(0.4 , 0.9);
-				margin-left: 230px;
+				margin-left: 229px;
 			   
 			  
 			  
@@ -151,7 +151,7 @@
 			
 			
 				.timeline {
-					margin: 15px;
+					margin: 32px;
 				  }
 				  .timeline::after{
 					left: 31px;
@@ -332,7 +332,7 @@ body{
 	position: relative;
 	max-width: 1200px;
 	margin: 100px auto;
-	top: 1300px;
+	top: 1350px;
 }
 
 

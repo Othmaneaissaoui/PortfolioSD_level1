@@ -131,21 +131,19 @@ nav a {
 }
 
 
-    .button {
-      display: none;
-    } 
+    
 
     .content h2 {
       margin-right: 320px;
-      font-size: 25px;
+      font-size: 19px;
       color: #0ef;
       height: 40px;
       margin: -5px;
-      margin-left: -305px;
+      margin-left: -345px;
     }
     
     .content p {
-      width: 52%;
+      width: 50%;
      height: 200px;
      margin-left: 1px;
      font-size: 15px;
@@ -158,6 +156,9 @@ nav a {
     
    }
   
+   .button {
+    display: none;
+   }
   
   html, body , .container {
     height: 100%;

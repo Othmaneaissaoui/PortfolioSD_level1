@@ -85,7 +85,7 @@
 				border-radius: 10%;
 				bottom: 0;
 				transform:  scale(0.4 , 0.9);
-				margin-left: 230px;
+				margin-left: 229px;
 			   
 			  
 			  
@@ -189,32 +189,6 @@
 		
 		
 		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	  
 	  
 	  html, body , .container {
@@ -340,7 +314,7 @@ body{
 	position: relative;
 	max-width: 1200px;
 	margin: 100px auto;
-	top: 2490px;
+	top: 2510px;
 }
 
 

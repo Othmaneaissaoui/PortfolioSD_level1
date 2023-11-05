@@ -27,178 +27,6 @@
 	margin: 0;
   }
   
-  @media screen and (max-width: 400px) {
-	
-
-
-	.container {  display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-		grid-auto-columns: 1fr;
-		gap: 0px 0px;
-		grid-auto-flow: row;
-		grid-template-areas:
-		  "header header header header header header header header header header header header"
-		  "nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar"
-		  "title title title title title title title title title title title title"
-		  "content content content content content content content content content content content content"
-		  "content content content content content content content content content content content content"
-		  "content content content content content content content content content content content content";
-	  }
-
-
-
-
-	  .header .logo{
-		width: 100%;
-		position: absolute;
-		right: 5px;
-		top: 10px;
-		}
-	
-
-		body {
-			background-image: url('techno9.png');
-			background-size: cover;
-			background-position: center;
-			width: 100%; 
-			height: 100%; 
-			text-align: center;
-			margin: 20px;
-			overflow-x: hidden;
-			
-		}
-	   
-		*{
-   
-			margin: 0;
-			padding: 0;
-			box-sizing: border-box;
-			font-family: "Poppins", sans-serif;
-			 }
-
-           
-			 .nav-bar {
-				position: absolute;
-				margin: 450px;
-				width: 100%;
-				border-radius: 10%;
-				bottom: 0;
-				transform:  scale(0.4 , 0.9);
-				margin-left: 229px;
-			   
-			  
-			  
-			  }
-			  nav a {
-				text-decoration: none;
-				color: #fff;
-				max-width: 100%;
-			   
-			   
-			  }
-			  
-			  
-			  .nav-bar ul {
-			   list-style-type: none;
-				display: flex;
-				flex-direction: row;
-				padding: 0;
-				margin: 0;
-			  
-			  
-			  
-			  }
-			  
-			  .nav-bar  li {
-				margin: 0px;
-				
-			  }
-			  
-			  .nav-bar  li a {
-			   
-				padding: 14px 16px;
-				display: block;
-				text-decoration: none;
-				color: white; 
-				text-align: center;
-				width: 100%;
-				font-size: 20px;
-				font-weight: 500;
-				line-height: 120%;
-				margin: 0px ;
-			  }
-			  
-
-					  
-   .title h1 { grid-area: title; 
-					margin: 0 auto;
-					font-size: 25px;
-					color: #0ef;
-					height: 60px;
-			}
-						  
-
-   .content { grid-area: content;
-			
-			
-				.timeline {
-					margin: 5px;
-					top: 2150px;
-				  }
-				  .timeline::after{
-					left: 41px;
-				  }
-				  .containerr {
-					width: 100%;
-					padding-left: 80px;
-					padding-right: 25px;
-				  }
-				
-				  .text-box {
-					padding: 10px;
-					font-size: 13px;
-				  }
-				  .text-box h2 {
-					font-size:19px;
-				  }
-				
-				   .text-box small {
-					margin-bottom: 10px;
-					font-size: 12px;
-				    margin-left: -1px;
-				   }
-				 .right-containerr{
-					left: 0;
-				 }
-				
-			  .left-containerr img, .right-containerr img {
-				left: 10px;
-			  }
-			
-			.left-containerr-arrow {
-				border-right: 15px solid white;
-			border-left: 0;
-			left: -16px;
-			}
-	
-			.right-containerr-arrow {
-				border-right: 15px solid white;
-				left: -16px;
-			}
-		
-		
-		}
-	  
-	  
-	  html, body , .container {
-		height: 100%;
-		margin: 0;
-	  }
-	  
-
-  }
-  
 
 
   * {
@@ -314,7 +142,7 @@ body{
 	position: relative;
 	max-width: 1200px;
 	margin: 100px auto;
-	top: 2510px;
+	top: 2460px;
 }
 
 
@@ -433,50 +261,242 @@ body{
 }
 
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 800px) {
+	.timeline{
+		top:3900px;
+	}
+	.text-box small {
+		margin-left: 100px;
+	}
+	.container {
+		width: 92%;
+	}
+	.text-box small {
+		margin-left: 10px;
+	}
+}
 	
-	.timeline {
-		margin: 50px auto;
-	}
 
-	.timeline::after {
-		left: 31px;
-	}
+@media screen and (max-width: 600px) {
+	
 
-	.containerr {
+
+	.container {  display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-auto-columns: 1fr;
+		gap: 0px 0px;
+		grid-auto-flow: row;
+		grid-template-areas:
+		  "header header header header header header header header header header header header"
+		  "nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar"
+		  "title title title title title title title title title title title title"
+		  "content content content content content content content content content content content content"
+		  "content content content content content content content content content content content content"
+		  "content content content content content content content content content content content content";
+	  }
+	  
+
+	  
+
+	  .header .logo{
 		width: 100%;
-		padding-left: 80px;
-		padding-right: 25px;
+		position: absolute;
+		right: 5px;
+		top: 10px;
+		}
+	
+
+		body {
+			background-image: url('techno9.png');
+			background-size: cover;
+			background-position: center;
+			width: 100%; 
+			height: 100%; 
+			text-align: center;
+			margin: 20px;
+			overflow-x: hidden;
+			
+		}
+	   
+		*{
+   
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: "Poppins", sans-serif;
+			 }
+
+           
+			 .nav-bar {
+				position: absolute;
+				margin: 450px;
+				width: 100%;
+				padding: 10px 5px;
+				border-radius: 10%;
+				bottom: 0;
+				transform:  scale(0.43 , 0.9);
+				margin-left: 100px;
+			   
+			  
+			  
+			  }
+			  nav a {
+				text-decoration: none;
+				color: #fff;
+				max-width: 100%;
+			   
+			   
+			  }
+			  
+			  
+			  .nav-bar ul {
+			   list-style-type: none;
+				display: flex;
+				flex-direction: row;
+				padding: 0;
+				margin: 0;
+			  
+			  
+			  
+			  }
+			  
+			  .nav-bar  li {
+				margin: 0px;
+				
+			  }
+			  
+			  .nav-bar  li a {
+			   
+				padding: 14px 16px;
+				display: block;
+				text-decoration: none;
+				color: white; 
+				text-align: center;
+				width: 100%;
+				font-size: 20px;
+				font-weight: 500;
+				line-height: 120%;
+				margin: 0px ;
+			  }
+			  
+
+					  
+   .title h1 { grid-area: title; 
+					margin: 0 auto;
+					font-size: 26px;
+					color: #0ef;
+					height: 60px;
+			}
+						  
+
+   .content { grid-area: content;
+			
+			
+				.timeline {
+					top: 2115px;
+					margin-left: 20px;
+				  }
+				  .timeline::after{
+					left: 31px;
+				  }
+				  .containerr {
+					width: 100%;
+					padding-left: 80px;
+					padding-right: 25px;
+				  }
+				
+				  .text-box {
+					padding: 10px;
+					font-size: 13px;
+				  }
+				  .text-box h2 {
+					font-size:19px;
+				  }
+				
+				   .text-box small {
+					margin-bottom: 10px;
+				   }
+				 .right-containerr{
+					left: 0;
+				 }
+				
+			  .left-containerr img, .right-containerr img {
+				left: 10px;
+			  }
+			
+			.left-containerr-arrow {
+				border-right: 15px solid white;
+			border-left: 0;
+			left: -16px;
+			}
+
+			.right-containerr-arrow {
+				border-right: 15px solid white;
+				left: -16px;
+			}
+		}
+
+	  
+   html, body , .container {
+		height: 100%;
+		margin: 0;
+	  }
+		
+	
+}
+  
+@media screen and (max-width: 450px) {
+	.timeline{
+		top: 890px;
 	}
 
-.text-box {
-	font-size: 13px;
+	.nav-bar{
+		margin-left: 660px;
+		top: -320px;
+	}
+
+	.text-box small {
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	
+	.title{
+		height:250%;
+	}
+
+	.nav-bar{
+		transform: scale(0.38 , 0.9);
+	}
+
+	.text-box small {
+		margin-left: 10px;
+	}
+	html, body , .container {
+		height: 110%;
+		margin: 0;
+	  }
 
 }
 
-.text-box small {
-	margin-bottom: 10px;
+
+@media screen and (max-width:320px) {
+	.title{
+		height:340%;
+	}
+
+	.nav-bar{
+		transform: scale(0.34 , 0.9);
+	}
+	.text-box small {
+		margin-left: 10px;
+	}
+
+
+html, body , .container {
+	height: 130%;
+	margin: 0;
+  }
 }
-
-.right-containerr {
-	left: 0;
-}
-
-.left-containerr img, .right-containerr img {
-	left: 10px;
-
-}
-
-.left-containerr-arrow, .right-containerr-arrow {
-	border-right: 15px solid #fff;
-	border-left: 0;
-	left: -15px;
-}
-
-}
-
-
-
-
-
-

@@ -29,150 +29,6 @@ html, body , .container {
   margin: 0;
 }
 
-@media screen and (max-width: 400px) {
-  
-  .container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header header header header header header header header header header header header"
-      "nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar"
-      "nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar"
-      "content content content content content content content content content content content content"
-      "content content content content content content content content content content content content"
-      "content content content content content content content content content content content content"
-      "content content content content content content content content content content content content"
-      "footer footer footer footer footer footer footer footer footer footer footer footer";
-  }
-  
-  .header .logo{
-    width: 100%;
-    position: absolute;
-    right: 5px;
-    top: 10px;
-    }
-    
-    body {
-      background-image: url('techno9.png');
-			background-size: cover;
-			background-position: center;
-			width: 100%; 
-			height: 100%; 
-			text-align: center;
-			margin: 20px;
-			overflow-x: hidden;
-     
-     
-  }
- 
-
-
-  *{
-   
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-
-
-
-.nav-bar {
-  position: absolute;
-  margin: 450px;
-  border-radius: 10%;
-  bottom: 0;
-  transform:  scale(0.4 , 0.9);
-  margin-left: 25px;
- 
-
-
-}
-nav a {
-  text-decoration: none;
-  color: #fff;
-  max-width: 100%;
- 
- 
-}
-
-
-.nav-bar ul {
- list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  margin: 0;
-
-
-
-}
-
-.nav-bar  li {
-  margin: 0px;
-  
-}
-
-.nav-bar  li a {
- 
-  padding: 14px 16px;
-  display: block;
-  text-decoration: none;
-  color: white; 
-  text-align: center;
-  width: 100%;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 120%;
-  margin: 0px ;
-}
-
-
-    
-
-    .content h2 {
-      margin-right: 320px;
-      font-size: 19px;
-      color: #0ef;
-      height: 40px;
-      margin: -5px;
-      margin-left: -345px;
-    }
-    
-    .content p {
-      width: 50%;
-     height: 200px;
-     margin-left: 1px;
-     font-size: 15px;
-      
-    }
-
-  
-  .footer {
-    font-weight: 600;
-    
-   }
-  
-   .button {
-    display: none;
-   }
-  
-  html, body , .container {
-    height: 100%;
-    margin: 0;
-    overflow-x: hidden;
-   
-  }
-
-
-
-}
-
-
-
 
 
 
@@ -343,3 +199,497 @@ li:hover {
 }
 
 
+@media screen and (max-width: 800px) {
+
+  body {
+    background-image: url('techno9.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    height: 100%; 
+    text-align: center;
+    margin: 20px;
+    overflow-x: hidden;
+   
+   
+}
+
+  
+  .header .logo{
+    width: 80%;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+    }
+
+
+  .nav-bar {
+    position: absolute;
+    margin: 420px;
+    border-radius: 10%;
+    bottom: 0;
+    transform:  scale(0.6 , 0.9);
+    margin-left: 450px;
+   
+  
+  
+  }
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    max-width: 100%;
+   
+   
+  }
+  
+  
+  .nav-bar ul {
+   list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  
+  
+  
+  }
+  
+  .nav-bar  li {
+    margin: 0px;
+    
+  }
+  
+  .nav-bar  li a {
+   
+    padding: 14px 16px;
+    display: block;
+    text-decoration: none;
+    color: white; 
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0px ;
+  }
+  
+  .content h2 {
+    font-size: 30px;
+    color: #0ef;
+    height: 100px;
+    margin: -5px;
+    margin-left: 80px;
+  
+  }
+  
+  .content p {
+    width: 100%;
+   height: 40px;
+   margin-left: 35px;
+   font-size: 17px;
+    
+  }
+
+
+.footer {
+  font-weight: 400;
+  left: 50px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: -15px;
+ }
+
+ .button {
+  display: none;
+ }
+
+html, body , .container {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+  
+  .container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header header header header header header header header header header header"
+      "nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar"
+      "nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar"
+      "content content content content content content content content content content content content"
+      "content content content content content content content content content content content content"
+      "content content content content content content content content content content content content"
+      "content content content content content content content content content content content content"
+      "footer footer footer footer footer footer footer footer footer footer footer footer";
+  }
+
+
+  .header .logo{
+    width: 90%;
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    }
+    
+    body {
+      background-image: url('techno9.png');
+			background-size: cover;
+			background-position: center;
+			width: 100%; 
+			height: 100%; 
+			text-align: center;
+			margin: 20px;
+			overflow-x: hidden;
+     
+     
+  }
+ 
+
+
+  *{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.nav-bar {
+  position: absolute;
+  margin: 460px;
+  border-radius: 10%;
+  bottom: 0;
+  transform:  scale(0.43 , 0.9);
+  margin-left: 448px;
+ 
+
+
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  max-width: 100%;
+ 
+ 
+}
+
+
+.nav-bar ul {
+ list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+
+
+
+}
+
+.nav-bar  li {
+  margin: 0px;
+  
+}
+
+.nav-bar  li a {
+ 
+  padding: 14px 16px;
+  display: block;
+  text-decoration: none;
+  color: white; 
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  margin: 0px ;
+}
+
+
+    
+
+    .content h2 {
+      margin-right: 320px;
+      font-size: 19px;
+      color: #0ef;
+      height: 40px;
+      margin: -5px;
+      margin-left: -305px;
+      
+    }
+    
+    .content p {
+      width: 55%;
+     height: 200px;
+     margin-left: 5px;
+     font-size: 15px;
+      
+    }
+
+  
+  .footer {
+    font-weight: 600;
+    font-size: 15px;
+    top: 570px;
+    margin-left: -40px;
+   }
+  
+   .button {
+    display: none;
+   }
+  
+  html, body , .container {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+ 
+}
+
+@media screen and (max-width: 450px) {
+  .nav-bar{
+    position: absolute;
+    margin: 460px;
+    border-radius: 10%;
+    bottom: 0;
+    transform:  scale(0.43 , 0.9);
+    margin-left: 448px;
+  }
+  footer {
+    top: -100px;
+  }
+  html, body , .container {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+
+  .header .logo{
+    width: 90%;
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    }
+    
+    body {
+      background-image: url('techno9.png');
+			background-size: cover;
+			background-position: center;
+			width: 100%; 
+			height: 100%; 
+			text-align: center;
+			margin: 20px;
+			overflow-x: hidden;
+     
+     
+  }
+ 
+
+
+
+.nav-bar {
+  position: absolute;
+  margin: 460px;
+  border-radius: 10%;
+  bottom: 0;
+  transform:  scale(0.4 , 0.9);
+  margin-left: 446px;
+ 
+
+
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  max-width: 100%;
+ 
+ 
+}
+
+
+.nav-bar ul {
+ list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+
+
+
+}
+
+.nav-bar  li {
+  margin: 0px;
+  
+}
+
+.nav-bar  li a {
+ 
+  padding: 14px 16px;
+  display: block;
+  text-decoration: none;
+  color: white; 
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  margin: 0px ;
+}
+
+
+    
+
+    .content h2 {
+      font-size: 18px;
+      color: #0ef;
+      height: 40px;
+      margin: -5px;
+      margin-left: -345px;
+      
+    }
+    
+    .content p {
+      width: 50%;
+     height: 200px;
+     margin-left: -5px;
+     font-size: 15px;
+      
+    }
+
+  
+  .footer {
+    font-weight: 600;
+    left: 30px;
+   
+   }
+  
+   .button {
+    display: none;
+   }
+  
+  html, body , .container {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+ 
+}
+
+
+@media screen and (max-width: 320px ) {
+
+  .header .logo{
+    width: 90%;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    }
+    
+    body {
+      background-image: url('techno9.png');
+			background-size: cover;
+			background-position: center;
+			width: 100%; 
+			height: 100%; 
+			text-align: center;
+			margin: 20px;
+			overflow-x: hidden;
+     
+     
+  }
+ 
+  .content h2 {
+    font-size: 17px;
+    margin-left: -400px;
+  }
+
+.content p {
+width: 45%;
+font-size: 15px;
+}
+
+
+.nav-bar {
+  position: absolute;
+  margin: 460px;
+  border-radius: 10%;
+  bottom: 0;
+  transform:  scale(0.34 , 0.9);
+  margin-left: 448px;
+ 
+
+
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  max-width: 100%;
+ 
+ 
+}
+
+
+.nav-bar ul {
+ list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+
+
+
+}
+
+.nav-bar  li {
+  margin: 0px;
+  
+}
+
+.nav-bar  li a {
+ 
+  padding: 14px 16px;
+  display: block;
+  text-decoration: none;
+  color: white; 
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  margin: 0px ;
+}
+
+
+.footer {
+  font-weight: 600;
+  top: 609px;
+  left: 40px;
+  
+ }
+ html, body , .container {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+}

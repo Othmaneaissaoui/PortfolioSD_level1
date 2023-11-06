@@ -450,9 +450,9 @@ body{
 	}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 395px) {
 	.timeline{
-		top: 1000px;
+		top: 950px;
 	}
 }
 
@@ -472,6 +472,12 @@ body{
 	
 }
 }
+
+
+
+
+
+
 
 
 

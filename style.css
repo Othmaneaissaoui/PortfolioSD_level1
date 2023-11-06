@@ -80,6 +80,7 @@ body {
     font-size: 36px;
     font-weight: 700;
     margin: -3px 0;
+    margin-left: -185px;
 }
 
 
@@ -171,9 +172,314 @@ body {
     box-shadow: 0 0 20px #0ef;
  }
 
+
+
+ .about {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    background: #081b29 ;
+    margin: 50px;
+   
+}
+
+.heading {
+    font-size: 39px;
+    margin: 80px;
+    text-align: center;
+}
+
+span {
+    color: #0ef;
+}
+
+
+
+
+.about-img {
+ display: flex;
+align-items: center;    
+}
+
+.left-image {
+    max-width: 200%; 
+    height: auto;
+    margin-left: 90px;
+    width: 19%;
+    border-radius: 10%;
+}
+
+
+
+.about-content h3 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif ;
+    color: #0ef;
+   text-decoration: underline;
+   margin-left: 64px;
+
+   
+ }
+ 
+ .about-content p {
+  font-size:16px;
+  margin:55px;
+  width: 70%; 
+
+ 
+ }
+ pre {
+    margin: 45px;
+ }
+ 
+ b {
+color: #0ef;
+margin: 10px;
+font-size: 16px;
+margin-left: -50px;
+ }
+
+
+
+ .heading1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+     margin: 150px;
+     
+ }
+ 
+ span{
+    color: #0ef;
+ }
+
+
+
+ .contact {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    min-height:auto;
+    padding-bottom:40px;
+
+   
+}
+
+
+.contact .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+
+.contact .card {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+
+}
+
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #0ef;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.contact .info p {
+    font-size: 18px;
+    color: black;
+    margin: 10px;
+  
+}
+
+
+
+
+
+body1 {
+    background-color: #081b29;
+    color:#fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+
+}
+
+
+.headerr {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+     align-items: 100;
+     z-index: 100;
  
 
 
+}
 
- 
+.logoo {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+   
+}
+
+
+.navbare a {
+    color: #ededed;
+    font-size: 20px;
+    text-decoration:none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    margin: 100px;
+
+}
+.navbare a:hover,
+.navbare .active{
+    font-size: 22px;
+    color: #0ef;
+}
+
+
+
+.container3 {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 30px; 
+  }
+
+
+.card1 {
+    width: 350px; 
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #081b29;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px #0ef;
+  }
+  
+  .card1 img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .suu {
+    font-size: 20px; 
+    margin: 10px 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0ef;
+    color: #081b29;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.7s ease;
+    letter-spacing: 1px;
+    border: 2px solid #0ef;
+    
+  }
+  
+  .btn:hover {
+    background-color: #0ef;
+    transform: scale(1.1);
+  }
+  
+
+
+
+  .background6 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: backgroundAnimation 10s infinite alternate;
+    background: linear-gradient(-45deg, black, white, gray, lightblue, blue);
+    background-size: 400% 400%;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.container6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

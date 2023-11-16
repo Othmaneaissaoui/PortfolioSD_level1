@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins' ,sans-serif ;
-
+    
     
 }
 
 body {
     background: #081b29;
     color:#fff;
+    overflow-x: hidden;
 }
 
 .header {
@@ -99,10 +100,10 @@ body {
  
 .home-img {
  position: absolute;
- top: 0;
+ height: 100px;
+ top: 150px;
  right: 0;
  width: 45%;
- height: 100%;
  background: transparent;
  
 }
@@ -467,13 +468,329 @@ h1 {
 
 
 
+.menu {display: flex;}
+.menu li {padding-left: 50px;
+font-size: 20px;
+}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+    
+}
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    transition: 0.15s ease-in-out;
+}
+.menu li a:hover:after {width: 100%;}
+.open-menu , .close-menu {
+    position: absolute;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+#check {display: none;}
+@media(max-width: 800px){
+  .home-img {
+    display: none;
+  
+  }
+
+.about-img{
+    margin-left: -70px;
+}
+.about-content p {
+    width: 90%;
+}
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: #1f242d;
+        transition: all 0.2s ease-in-out;
+    }
+    .navbar a {
+        color: white;
+        margin: 10px;
+    }
+    .navbar a:hover {
+        color: #0ef;
+    }
+    
+  
+    .menu li {margin-top: 40px;}
+    .menu li a {padding: 10px;}
+    .open-menu , .close-menu {display: block;}
+    #check:checked ~ .menu {right:0px;}
+
+.container3{
+    width: 80%;
+}
+
+    html, body , .container {
+        height: 100%;
+        margin: 0;
+        overflow-x: hidden;
+      }
+      
+}
+
+@media screen and (max-width: 450px) {
+    .home-img{
+        display: none;
+         }
+
+         .heading {
+            font-size: 33px;
+         }
+         .about-img{
+            margin-left: -30px;
+           width: 170%;
+         }
 
 
+.about-content h3 {
+    font-size: 24px;
+    margin-top: -45px;
+    margin-left: -50px;
+}
+
+.about-content pre {
+    margin-left: -80px;
+    font-size: 13.5px;
+}
+
+.about-content p {
+    width: 80%;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+    
+         .logo {
+            font-size: 18px;
+            font-weight: 600;
+            margin-left: -25px;
+         }
+    
+         .home-content h3 {
+          font-size: 25px;
+          
+         }
+        .text-animate span {
+          margin-left: 10px;
+        }
+         .home-content h1 {
+            font-size: 25px;
+            margin-left: -270px;
+            
+           }
+           .btn-box{
+            margin-left: 5px;
+            width: 60%;
+            height: 40px;
+          
+            }
+            .menu {
+               
+                width: 50%;
+               
+            }
+
+            .container3{
+                margin-left: 10px;
+              
+            }
+           
+    html, body , .container {
+        height: 100%;
+        margin: 0;
+        overflow-x: hidden;
+      }
+}
 
 
+@media screen and (max-width: 400px) {
+    .heading {
+        font-size: 25px;
+     }
+     .about-img{
+        margin-left: -60px;
+       width: 170%;
+     }
 
 
+.about-content h3 {
+font-size: 24px;
+margin-top: -45px;
+margin-left: -80px;
+}
 
+.about-content pre {
+margin-left: -85px;
+font-size: 12px;
+}
+
+.about-content p {
+width: 80%;
+margin-top: 10px;
+font-size: 14px;
+margin-left: 20px;
+}
+.container3{
+    display: inline-block;
+}
+.card1{
+    width: 70%;
+    margin: 20px;
+    margin-left: 50px;
+   
+   
+}
+
+html, body , .container {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+}
+
+@media(max-width: 320px){
+   
+.img{
+    display: none;
+     }
+
+     .heading {
+        font-size: 25px;
+     }
+     .about-img{
+        margin-left: -110px;
+       width: 170%;
+     }
+
+
+.about-content h3 {
+font-size: 20px;
+margin-top: -45px;
+margin-left: -60px;
+}
+
+.about-content pre {
+margin-left: -74px;
+font-size: 11px;
+}
+
+.about-content p {
+width: 70%;
+margin-top: 10px;
+font-size: 12px;
+margin-left: 20px;
+}
+
+
+     .logo {
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: -25px;
+     }
+
+     .home-content h3 {
+      font-size: 18px;
+      
+     }
+    .text-animate span {
+      margin-left: -20px;
+    }
+     .home-content h1 {
+        font-size: 18px;
+        margin-left: -330px;
+        
+       }
+    
+    
+       .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: #1f242d;
+        transition: all 0.2s ease-in-out;
+    }
+    .btn-box{
+        margin-left: -15px;
+        width: 53%;
+        height: 40px;
+      
+        }
+ 
+        .social-media {
+         height:100px ;
+         width: 50%;
+        }
+  
+    .menu li {margin-top: 40px;}
+    .menu li a {padding: 10px;}
+    .open-menu , .close-menu {display: block;}
+    #check:checked ~ .menu {right:0;}
+
+.heading1{
+    font-size: 30px;
+    margin: 105px;
+}
+
+.content {
+    width: 100%;
+    height: 60px;
+}
+
+.container3{
+    display: inline-block;
+}
+.card1{
+    width: 70%;
+    margin: 50px;
+    height:200px;
+    margin-left: 30px;
+}
+
+    html, body , .container {
+        height: 100%;
+        margin: 0;
+        overflow-x: hidden;
+      }
+      
+} 
 
 
 
